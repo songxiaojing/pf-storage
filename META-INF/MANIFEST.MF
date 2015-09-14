@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: pf-storage
+Bundle-SymbolicName: pf-storage
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.topsec.bdc.platform.storage.Activator
+Bundle-Vendor: topsec
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.9.100",
+ pf-log;bundle-version="1.0.0",
+ pf-core;bundle-version="1.0.0"
+Bundle-ClassPath: lib/mongo-java-driver-3.0.0-beta1.jar,
+ .
